@@ -39,6 +39,7 @@ public class Project1{
 		   	  factoryImpl.addLast(newproduct);
 
 		  }
+		  
 		  if (values[0].equals("A")) {
 			  int index = Integer.parseInt(values[1]);
 			  int product_id = Integer.parseInt(values[2]);
@@ -123,6 +124,7 @@ public class Project1{
 		 
 		  		  
 		}
+		System.out.println("Done");
 		scan.close();
         fWriter.close();
 	}
